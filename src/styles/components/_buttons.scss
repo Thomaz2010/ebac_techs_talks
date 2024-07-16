@@ -1,0 +1,26 @@
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block; /* Certifique-se de que o botão seja exibido como um bloco inline */
+
+    &--primary {
+        color: #fff;
+        background-color: #4f2ac3;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        width: 48%;
+        align-items: center;
+        justify-content: center;
+    }
+}
