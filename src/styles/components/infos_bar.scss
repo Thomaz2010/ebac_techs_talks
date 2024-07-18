@@ -1,6 +1,8 @@
+@use '../variables';
+
 .infos-bar {
     padding: 16px 24px;
-    background-color:#ade409;
+    background-color:variables.$textColor;
     margin-right: 10%;
     margin-left: 10%;
     display: flex;
@@ -21,7 +23,7 @@
 
      &__item {
         font-size: 14px;
-        color: #000;
+        color: variables.$secundaryTextColor;
         flex: 1; /* Permite que cada item ocupe espaço igual */
         margin: 0 10px; /* Ajusta a margem entre os itens */
        
@@ -31,7 +33,7 @@
         b {
             font-size: 18px;
              display: block;
-             color: #000;
+             color:variables.$secundaryTextColor;
              
          }
    }
